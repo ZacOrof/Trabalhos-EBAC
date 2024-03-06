@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    transition: background .5s;
+    padding: 20px;
+}
+header li a:hover{
+    background-color: rgb(18, 14, 9, 0.3);
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto 0 auto;   
+}
+
+.article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article article img{
+    height: 200px;
+    width: 300px;
+}
+
+.article article{
+    width: 30%;  
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.article article{
+    margin-bottom: 16px;
+}
+
+.article article h3{
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.article article a{
+    color: white;
+    margin-top: 8px;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.article article a:hover{
+    text-decoration: underline;
+}
+
+.article article p,
+.article article a{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 12px;
+}
+
+.article article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 40px;
+}
+
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.2);
+}
+#sports .article article a{
+    background-color: rgb(75, 120, 8);
+    transition: background .5s;
+}
+#sports .article article a:hover{
+    background-color: rgb(5, 74, 5);
+}
+
+
+#economy {
+    background-color: rgb(251, 251, 2, 0.4);
+}
+
+#economy .article article a{
+    background-color: goldenrod;
+    transition: background .5s;
+}
+#economy .article article a:hover{
+    background-color: rgb(99, 78, 4);
+}
+
+
+#entreterimento{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+#entreterimento .article article a{
+    background-color: rgb(175, 3, 3);
+    transition: background .5s;
+}
+#entreterimento .article article a:hover{
+    background-color: rgb(113, 5, 5);
+}
+
+
+#tecnologia{
+    background-color: rgba(0, 255, 255, 0.584);
+}
+#tecnologia .article article a{
+    background-color: rgba(41, 41, 164, 0.722);
+    transition: background .5s;
+}
+#tecnologia .article article a:hover{
+    background-color: rgb(3, 47, 82);
+}
+
+
+
+
+
+
+
+    
+
+
+    
